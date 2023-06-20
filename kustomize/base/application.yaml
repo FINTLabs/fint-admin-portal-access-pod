@@ -1,0 +1,13 @@
+apiVersion: fintlabs.no/v1alpha1
+kind: Application
+metadata:
+  name: fint-admin-portal-access-pod
+spec:
+  port: 7100
+  orgId: fintlabs.no
+  image: ghcr.io/fintlabs/fint-admin-portal-access-pod:sha-0000000
+  prometheus:
+    enabled: true
+    port: "7100"
+    path: /metrics
+  env: []

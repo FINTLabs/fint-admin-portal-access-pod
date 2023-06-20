@@ -1,0 +1,79 @@
+{
+  "name": "fint-admin-portal-access-pod",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:8081",
+  "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.10.14",
+    "@mui/lab": "^5.0.0-alpha.108",
+    "@mui/material": "^5.10.13",
+    "@mui/styles": "^5.10.10",
+    "axios": "0.27.2",
+    "classnames": "2.3.2",
+    "copy-to-clipboard": "3.3.2",
+    "expect": "29.2.2",
+    "expect-redux": "5.0.3",
+    "express": "4.18.2",
+    "fetchmock": "1.0.1",
+    "generate-password": "1.7.0",
+    "glob-to-regexp": "0.4.1",
+    "immutable": "4.1.0",
+    "lodash": "4.17.21",
+    "prop-types": "15.8.1",
+    "react": "^17.0.1",
+    "react-cookie": "4.1.1",
+    "react-copy-to-clipboard": "5.1.0",
+    "react-dom": "^17.0.1",
+    "react-form-validator-core": "1.1.2",
+    "react-inline-grid": "0.5.3",
+    "react-json-pretty": "2.2.0",
+    "react-json-view": "1.21.3",
+    "react-pretty-json": "2.0.2",
+    "react-redux": "8.0.5",
+    "react-router-dom": "^5.2.0",
+    "react-router-redux": "4.0.8",
+    "react-scripts": "^5.0.1",
+    "react-search": "2.1.1",
+    "react-swipeable-views": "0.14.0",
+    "react-tap-event-plugin": "3.0.3",
+    "redux": "4.2.0",
+    "redux-form": "8.3.8",
+    "redux-logger": "3.0.6",
+    "redux-persist": "6.0.0",
+    "redux-promise": "0.6.0",
+    "redux-thunk": "2.4.2",
+    "roboto-fontface": "0.10.0",
+    "semantic-ui-react": "2.1.3",
+    "typeface-roboto": "1.1.13"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "enzyme": "3.11.0",
+    "enzyme-adapter-react-16": "1.15.6",
+    "husky": "2.7.0",
+    "lint-staged": "10.5.3",
+    "prettier": "2.2.1",
+    "react-test-renderer": "17.0.1",
+    "redux-mock-store": "1.5.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
